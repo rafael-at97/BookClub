@@ -1,0 +1,42 @@
+#page-borrow {
+    width: 100vw;
+    height: 100vh;
+}
+
+#search-books {
+    margin-top: 3.2rem;
+}
+
+#search-books label {
+    color: var(--color-text-in-primary);
+}
+
+#page-borrow main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+@media (min-width: 700px) {
+    #page-borrow {
+        max-width: 100%;
+    }
+
+    #search-books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 16px;
+        position: absolute;
+        bottom: -28px;
+    }
+
+    #search-books .input-block + .input-block,
+    #search-books .select-block + .select-block {
+        margin-top: 0rem;
+    }
+
+    #page-borrow main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+}
