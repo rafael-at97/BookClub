@@ -29,9 +29,10 @@ Contains main server and router files, along with other source files, such as da
 Concepts applied: 
 - Generating routes using 'express';
 - Using migrations for better database version control;
-- Transactions for database, allowing simpler rollback.
+- Transactions for database, allowing simpler rollback;
+- Controllers for improving code modularization.
 
 # ToDo/Doing
-BackEnd and Mobile version under construction.
+Mobile version under construction.
 
 ![Men at Work](https://fanart.tv/fanart/music/395cc503-63b5-4a0b-a20a-604e3fcacea2/hdmusiclogo/men-at-work-5a687fdbd97b2.png)
