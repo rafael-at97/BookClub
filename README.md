@@ -8,6 +8,12 @@ The idea is to make a platform where people can meet and share books, expanding 
 /web // Front-end web application based on simplified common react app structure with typescript template
      // Created using npx create-react-app web --template typescript
 ```
+
+```
+/server // Back-end server application using typescript for data management and storage
+        // Created using a simple typescript server architecture
+```
+
 ## Front-end
 Contains public index.html file and src files, organized by pages, common components and assets. Each page and component has it's own style sheet, which together with a global style sheet, give the project a face in web browsers.
 Concepts applied: 
@@ -17,6 +23,13 @@ Concepts applied:
 - State setting and update;
 - Interface for components creation using typescript;
 - Responsive web design.
+
+## Back-end
+Contains main server and router files, along with other source files, such as database migrations and utils transforms.
+Concepts applied: 
+- Generating routes using 'express';
+- Using migrations for better database version control;
+- Transactions for database, allowing simpler rollback.
 
 # ToDo/Doing
 BackEnd and Mobile version under construction.
