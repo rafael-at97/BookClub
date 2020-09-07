@@ -12,7 +12,7 @@ import './styles.css';
 
 export default function Landing() {
     return (
-        <div id="page-landing">
+        <div id="page-landing"> 
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={logoImg} alt="BookClub"/>
